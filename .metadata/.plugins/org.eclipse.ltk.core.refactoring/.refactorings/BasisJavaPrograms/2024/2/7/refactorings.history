@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ThreadState.java&apos; to &apos;BasisJavaPrograms/src/Multithreading&apos;&#x0D;&#x0A;- Original project: &apos;BasisJavaPrograms&apos;&#x0D;&#x0A;- Destination element: &apos;BasisJavaPrograms/src/Multithreading&apos;&#x0D;&#x0A;- Original element: &apos;ThreadState.java&apos;" description="Copy compilation unit" destination="/src&lt;Multithreading" element1="/src&lt;{ThreadState.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1707974748465" units="1" version="1.0"/>
+</session>

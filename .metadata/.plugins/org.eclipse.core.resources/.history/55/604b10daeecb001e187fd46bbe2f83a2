@@ -1,0 +1,30 @@
+package Multithreading;
+
+class ABCD extends Thread {
+	Thread threadToInterrupt;
+
+	// overriding the run() method
+	public void run() {
+		// invoking the method interrupt
+		threadToInterrupt.interrupt();
+	}
+}
+
+public class ThreadJoinExample1 {
+	// main method
+	public static void main(String[] argvs) {
+		try {
+			// creating an object of the class ABC
+			ABCD th11 = new ABCD();
+
+			th11.threadToInterrupt = Thread.currentThread();
+			th11.start();
+
+			// invoking the join() method leads
+			// to the generation of InterruptedException
+			th11.join();
+		} catch (InterruptedException ex) {
+			System.out.println("The exception has been caught. " + ex);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+
+public class PyramidPatternStar {
+
+	public static void main(String[] args) {
+	int i,j,rows=6;
+	for(i=0;i<rows;i++) {
+		for(j=rows-i;j>=0;j--) {
+			System.out.println(" ");
+		}
+		for(j=0;j<=i;j++) {
+			System.out.println("* ");
+		}
+	}
+	}
+
+}
